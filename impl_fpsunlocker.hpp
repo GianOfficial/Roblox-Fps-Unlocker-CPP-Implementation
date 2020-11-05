@@ -1,15 +1,15 @@
 // Credits to gogo1000
 // Q: How does this work?
-// A: It reads the instance of the task scheduler class and the pad basically adds 272 (0x110) bytes to the start because the Frame Delay offset is 272 (0x110)
+// A: It reads the instance of the task scheduler class and the pad basically adds 272 bytes to the start because the Frame Delay offset is 272
 
-//tl;dr Reverse the address/offset by yourself
+// tl;dr Reverse the address/offset by yourself
 
 namespace FPSUnlocker
 {
       class TaskScheduler
       {
       public:
-           char Pad[0x110]; //272
+           char Pad[272];
            double FPS;
       };
 
