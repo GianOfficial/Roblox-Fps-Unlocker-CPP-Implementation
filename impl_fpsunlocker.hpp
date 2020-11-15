@@ -4,7 +4,7 @@
 
 // tl;dr Reverse the address/offset by yourself
 
-// Updated as of 15/11/2020 (Last UpDate, I will not provide the address next week) 
+// Updated as of 15/11/2020 (Last Update, I will not provide the address/offset next week) 
 
 namespace FPSUnlocker
 {
