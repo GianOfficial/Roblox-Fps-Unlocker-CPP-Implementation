@@ -16,7 +16,7 @@ namespace FPSUnlocker
 
       int UnlockFps()
       {
-           TaskScheduler* TaskScheduling = *reinterpret_cast<TaskScheduler**>(ASLR(0x259DB20));
+           TaskScheduler* TaskScheduling = *reinterpret_cast<TaskScheduler**>(ASLR(0x259FC30));
            const double FPS = 1.0 / 500.0; //500.0 is your fps decision
            TaskScheduling->FPS = FPS;
            return 0;
